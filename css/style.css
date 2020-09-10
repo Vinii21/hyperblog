@@ -1,22 +1,31 @@
 body {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    font-weight: bold;
-    font-size: 30px;
+    background: black;
+    color: aliceblue;
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+
+    font-size:18px ;
     
 }
 
-.container {
-    justify-items: center;
-    border: 1px solid gray;
-    width: 700px;
+.menu {
+    border-bottom: 1px solid rgb(251, 255, 0);
     height: auto;
-    padding: 5px;
+    width: 100%;   
 }
 
-.writing {
-    font-weight: 700;
-    color: brown;
-    font-size: 20px;
+.menucontainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+
+
+}
+
+
+
+a {
+    color: rgb(243, 255, 82);
+    text-decoration: none;
 }
