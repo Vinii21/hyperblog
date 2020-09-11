@@ -2,10 +2,11 @@ body {
     background: black;
     color: aliceblue;
     max-width: 1000px;
-    height: 100vh;
+    max-height: 100vh;
     margin: auto;
 
-    font-size:18px ;
+    font-size:18px;
+    
     
 }
 
@@ -23,9 +24,18 @@ body {
 
 }
 
-
-
 a {
     color: rgb(243, 255, 82);
     text-decoration: none;
 }
+
+.footer {
+    border-top: solid 1px rgb(243, 255, 82);
+    background-color:rgba(1, 69, 71, 0.493) ;
+    padding: 0 5px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
